@@ -138,11 +138,10 @@ TIDE AI
 
 ## Development Tools
 
-- Android Studio
-- Visual Studio Code
-- Git
-- GitHub
 - FlutLab
+- Firebase Console
+- Figma
+- GitHub
 
 ---
 
