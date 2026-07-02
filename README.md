@@ -151,21 +151,26 @@ TideAI/
 
 ├── android/
 ├── ios/
-├── lib/
-│   ├── widgets/
-│   │   └── ai_priority_banner.dart
-│   │
-│   ├── ai_assistant_screen.dart
-│   ├── ai_category_service.dart
-│   ├── ai_priority_service.dart
-│   ├── ai_search_service.dart
-│   ├── auth_service.dart
-│   ├── firebase_options.dart
-│   ├── firestore_service.dart
+lib/
+│
+├── screens/
 │   ├── login_screen.dart
 │   ├── register_screen.dart
-│   ├── shared_task_screen.dart
-│   └── main.dart
+│   ├── ai_assistant_screen.dart
+│   └── shared_task_screen.dart
+│
+├── services/
+│   ├── auth_service.dart
+│   ├── firestore_service.dart
+│   ├── ai_search_service.dart
+│   ├── ai_priority_service.dart
+│   └── ai_category_service.dart
+│
+├── widgets/
+│   └── ai_priority_banner.dart
+│
+├── firebase_options.dart
+└── main.dart
 │
 ├── screenshots/
 │   ├── tideai-cover.jpeg
