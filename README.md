@@ -2,45 +2,49 @@
 
 # 🌊 TIDE AI
 
-### Productivity & Task Management Mobile Application
+### AI-Inspired Productivity & Task Management Mobile Application
 
-*A Flutter application prototype focused on productivity, task organization, calendar management, and modern mobile UI design.*
+<p>
+A Flutter-based productivity application prototype designed to help users
+organize tasks, manage schedules, and improve productivity through an intuitive
+mobile experience.
+</p>
 
-<img src="tideai-cover.jpeg" width="900">
+<img src="screenshots/tideai-cover.jpeg" width="850">
 
 <br>
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)]()
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)]()
-[![Firebase](https://img.shields.io/badge/Firebase-Integrated-FFCA28?logo=firebase&logoColor=black)]()
-[![Figma](https://img.shields.io/badge/Figma-Prototype-F24E1E?logo=figma&logoColor=white)]()
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)]()
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About the Project
 
-TIDE AI is a productivity and task management mobile application developed as part of my learning journey in Flutter application development.
+TIDE AI is a mobile productivity application prototype developed as part of my learning journey in Flutter application development.
 
-The project combines mobile UI design, Flutter development, and productivity-focused features to create an intuitive user experience.
+The project combines **mobile UI development**, **task management concepts**, **calendar organization**, and an **AI-inspired assistant interface** into a clean and modern application.
 
-Although the interface includes an **AI Assistant concept**, real AI functionality is **not yet integrated** due to API limitations. The current version demonstrates the complete user interface and workflow while preparing the project for future AI integration.
+Although the current version does **not integrate a live AI model**, the application has been designed with an AI-assisted workflow in mind, making it ready for future AI integration.
+
+This project allowed me to gain practical experience in building complete mobile interfaces while learning Flutter, Dart, Firebase integration, and application architecture.
 
 ---
 
 # ✨ Features
 
-- ✅ User Login Interface
-- ✅ Dashboard
+- ✅ User Authentication
 - ✅ Task Management
 - ✅ Calendar Management
 - ✅ Productivity Tracking
-- ✅ AI-inspired Assistant Interface
 - ✅ User Profile
-- ✅ Responsive Flutter UI
-- ✅ Modern Dark Theme
+- ✅ AI-inspired Assistant Interface
+- ✅ Modern Material UI
+- ✅ Responsive Flutter Layout
 
 ---
 
@@ -48,61 +52,73 @@ Although the interface includes an **AI Assistant concept**, real AI functionali
 
 ## Login
 
-<img src="login.jpeg" width="260">
+<p align="center">
+<img src="screenshots/login.jpeg" width="260">
+</p>
 
 ---
 
 ## Home Dashboard
 
-<img src="home.jpeg" width="260">
+<p align="center">
+<img src="screenshots/home.jpeg" width="260">
+</p>
 
 ---
 
 ## Task Management
 
-<img src="task.jpeg" width="260">
+<p align="center">
+<img src="screenshots/task.jpeg" width="260">
+</p>
 
 ---
 
 ## Calendar
 
-<img src="calendar.jpeg" width="260">
+<p align="center">
+<img src="screenshots/calendar.jpeg" width="260">
+</p>
 
 ---
 
 ## AI Assistant
 
-<img src="AI.jpeg" width="260">
+<p align="center">
+<img src="screenshots/AI.jpeg" width="260">
+</p>
 
 ---
 
 ## User Profile
 
-<img src="profile-page.jpeg" width="260">
+<p align="center">
+<img src="screenshots/profile-page.jpeg" width="260">
+</p>
 
 ---
 
-# 🎬 Application Demo
+# 🏗 Project Architecture
 
-> Demo Video
-
-[tideai-demo.webm](tideai-demo.webm)
-
-*(GitHub will allow visitors to download or play the demo video.)*
+```
+TIDE AI
+│
+├── Authentication
+│
+├── Task Management
+│
+├── Calendar Module
+│
+├── AI Assistant Interface
+│
+├── User Profile
+│
+└── Firebase Services
+```
 
 ---
 
-# 🎨 UI/UX Design
-
-The complete application interface was first designed in **Figma** before implementing it in Flutter.
-
-### View Design Prototype
-
-https://www.figma.com/design/kpO2kgV4t8F4c7UtxzpfM2/Session-1
-
----
-
-# 🛠 Tech Stack
+# 🛠 Technologies Used
 
 ## Mobile Development
 
@@ -120,7 +136,8 @@ https://www.figma.com/design/kpO2kgV4t8F4c7UtxzpfM2/Session-1
 
 ## Development Tools
 
-- VS Code
+- Android Studio
+- Visual Studio Code
 - Git
 - GitHub
 - FlutLab
@@ -129,8 +146,8 @@ https://www.figma.com/design/kpO2kgV4t8F4c7UtxzpfM2/Session-1
 
 # 📂 Project Structure
 
-```
-TIDEAI/
+```text
+TideAI/
 
 ├── android/
 ├── ios/
@@ -150,8 +167,17 @@ TIDEAI/
 │   ├── shared_task_screen.dart
 │   └── main.dart
 │
-├── test/
+├── screenshots/
+│   ├── tideai-cover.jpeg
+│   ├── login.jpeg
+│   ├── home.jpeg
+│   ├── task.jpeg
+│   ├── calendar.jpeg
+│   ├── AI.jpeg
+│   └── profile-page.jpeg
+│
 ├── web/
+├── test/
 ├── pubspec.yaml
 └── README.md
 ```
@@ -160,13 +186,13 @@ TIDEAI/
 
 # 🚀 Getting Started
 
-## Clone Repository
+## Clone the repository
 
 ```bash
 git clone https://github.com/AMRITHA-LAL/TideAI.git
 ```
 
-Move into the project
+Move into the project folder
 
 ```bash
 cd TideAI
@@ -178,7 +204,7 @@ Install dependencies
 flutter pub get
 ```
 
-Run the project
+Run the application
 
 ```bash
 flutter run
@@ -186,61 +212,70 @@ flutter run
 
 ---
 
-# 💡 Future Improvements
+# 💡 Learning Outcomes
 
-- AI API integration
-- Smart task recommendations
-- Voice assistant
-- Notifications
-- Cloud synchronization
-- Analytics Dashboard
-- Offline Mode
-- Cross-device Sync
-
----
-
-# 📚 Learning Outcomes
-
-Through this project I gained experience in:
+Through this project I learned:
 
 - Flutter application development
-- Dart programming
-- Mobile UI implementation
+- Building reusable widgets
 - Firebase integration
-- User authentication
-- Firestore database
-- Git & GitHub
-- Figma UI Design
-- Project structuring
+- User interface design principles
+- Mobile application architecture
+- State management concepts
+- Git & GitHub workflow
+- Project documentation
 
 ---
 
-# 🌐 Portfolio
+# 🔮 Future Improvements
 
-Project Details
+Planned enhancements include:
 
-https://amritha-lal.github.io/amritha_portfolio/tideai.html
+- 🤖 Real AI integration using Gemini or OpenAI APIs
+- ☁ Cloud synchronization
+- 📊 Productivity analytics
+- 🔔 Smart reminders & notifications
+- 🌙 Dark mode
+- 📅 Google Calendar integration
+- 👥 Team collaboration
+- 📈 Performance improvements
 
-Portfolio Website
+---
+
+# 🌐 Project Links
+
+## Portfolio
 
 https://amritha-lal.github.io/amritha_portfolio/
 
----
+## Project Details
 
-# 👩‍💻 Developer
+https://amritha-lal.github.io/amritha_portfolio/tideai.html
 
-## Amritha Lal
+## LinkedIn
 
-B.Tech Computer Science & Engineering
-
-- GitHub: https://github.com/AMRITHA-LAL
-- LinkedIn: https://www.linkedin.com/in/amritha-lal-8558aa262
-- Portfolio: https://amritha-lal.github.io/amritha_portfolio/
+https://www.linkedin.com/in/amritha-lal-8558aa262
 
 ---
 
-# ⭐ Support
+# 👩‍💻 Author
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
+**Amritha Lal**
 
-It motivates me to continue building and improving projects.
+B.Tech Computer Science & Engineering Student
+
+Interested in Software Development, Flutter Development, Artificial Intelligence, and Web Technologies.
+
+GitHub:
+
+https://github.com/AMRITHA-LAL
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project interesting, consider giving it a star!
+
+Thank you for visiting my repository.
+
+</div>
